@@ -41,8 +41,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle saveInstanceState)
     {
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_main);
+//        setContentView(R.layout.activity_main);
+        setContentView(R.layout.custom_button);
+
 //        mLinearLayout = new LinearLayout(this);
+
 //
 //        ImageView i = new ImageView(this);
 //        i.setImageDrawable(getResources().getDrawable(R.drawable.oval));
